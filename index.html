@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>BMI Calculator</title>
   </head>
   <body>
@@ -13,12 +19,18 @@
       <h2 id="subtitle">Find out your BMI and get ahead in your goals.</h2>
     </header>
     <main>
-      <strong id="title-strong">Peso</strong>
-      <input type="text" id="box" />
-      <strong id="title-strong">Altura</strong>
-      <input type="text" id="box" />
-      <p>O resultado é <strong>X</strong></p>
+      <div id="title-box">
+        <strong id="title-strong">Weight(kg)</strong>
+        <input type="text" id="box" />
+      </div>
+      <div id="title-box">
+        <strong id="title-strong">Height(m)</strong>
+        <input type="text" id="box" />
+      </div>
+      <button type="button" id="button"><strong> Calcule</strong></button>
+      <p id="p-result">The result it's <strong id="result">X</strong></p>
     </main>
+    <footer>Larissa Corrêa</footer>
     <script src="index.js" defer></script>
   </body>
 </html>
