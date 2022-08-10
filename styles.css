@@ -1,5 +1,90 @@
+
+
 * {
-  color: darkblue;
-  font-family: Verdana, sans-serif;
-  font-weight: 600;
+  background-image: radial-gradient(
+    circle at 0%,
+    #93b0c4 0,
+    #97afc5 3.33%,
+    #9aaec5 6.67%,
+    #9fadc6 10%,
+    #a3acc5 13.33%,
+    #a8aac5 16.67%,
+    #aca9c3 20%,
+    #b0a8c2 23.33%,
+    #b5a7bf 26.67%,
+    #b9a6bd 30%,
+    #bca5ba 33.33%,
+    #bfa4b7 36.67%,
+    #c2a4b4 40%,
+    #c4a3b0 43.33%,
+    #c6a3ad 46.67%,
+    #c7a3a9 50%,
+    #c8a3a5 53.33%,
+    #c8a3a2 56.67%,
+    #c7a49f 60%,
+    #c6a59c 63.33%,
+    #c5a599 66.67%,
+    #c3a697 70%,
+    #c1a795 73.33%,
+    #bea894 76.67%,
+    #bba993 80%,
+    #b8ab92 83.33%,
+    #b4ac92 86.67%,
+    #b0ad93 90%,
+    #acae94 93.33%,
+    #a8af95 96.67%,
+    #a4b097 100%
+  );
+  font-family: 'Tiro Gurmukhi', serif;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#title-box {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#title-strong {
+  padding: 10px;
+}
+
+#weight-box,
+#height-box {
+  width: 150px;
+  height: 25px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 3px dotted white;
+  box-shadow: 3px 3px rgb(1, 1, 41);
+}
+
+#button {
+  margin-top: 40px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 3px dotted white;
+  box-shadow: 2px 2px rgb(0, 0, 53);
+  cursor: pointer;
+  font-size: px;
+}
+
+#p-result {
+  font-size: 30px;
+  font-style: italic;
+}
+
