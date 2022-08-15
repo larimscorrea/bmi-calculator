@@ -4,6 +4,7 @@
 
   let inputWeight = document.querySelector('input#weight-box');
   let inputHeight = document.querySelector('input#height-box');
+  let strongResult = document.querySelector('strong#result');
 
   inputWeight.addEventListener('input', handleButtonClick);
   inputWeight.addEventListener('input', handleButtonClick);
